@@ -1,0 +1,414 @@
+@font-face {
+	font-family: Raleway;
+	src: url(static/Raleway-Thin.ttf);
+}
+.barrenav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+ul {
+	display: inline-flex;
+	list-style-type: none;
+}
+
+li a {
+    display: flex;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    padding: 8px;
+}
+
+li a {
+    color: black;
+}
+li:hover {
+
+    border-top: 2px solid #0065FC;
+   color: #0065FC;
+}
+li a:hover{
+	color: #0065FC;
+}
+.hebergement{
+
+	color: #DEEBFF;
+	font-size: 20px;
+}
+
+.activite
+{
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.booki
+{
+	justify-content: flex-start;
+}
+.booki img
+{
+	height: 50px;
+}
+
+nav.barrenav ul li a
+{
+	text-decoration: none;
+
+}
+
+.back img 
+{
+	height: 120px;
+}
+.global
+{
+	justify-content: space-around;
+	display: flex;
+	height: auto;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+}
+.back {
+    background-color: #F2F2F2;
+    border-radius: 14px;
+    width: calc(66% - 55px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.back img
+{
+	width: 100%;
+	height: 130px;
+
+}
+.container
+{
+
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 0;
+	border-radius: 14px;
+	justify-content: space-between;
+}
+.Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
+{
+	background-color: white;
+	border-radius: 14px;
+	overflow: hidden;
+	width: 30%;
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	margin-bottom: 25px;
+	border: 4px solid white;
+}
+.title, .description, .stars{
+	padding-left: 10px;
+}
+.stars{
+	padding-bottom: 10px;
+}
+h2, p, h5 
+{
+	margin: 3px 0 ;
+	font-size: 19px;
+}
+.logement{
+	margin: 25px 0;
+}
+
+.HTB, .HLS, .AC
+{
+	background-color: white;
+	display: flex;
+	border-radius: 14px;
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+	border: 4px solid white ;
+	position: relative;
+}
+
+.text
+{
+	padding-left: 10px;
+}
+.text .stars{
+	position: absolute;
+	bottom: 0;
+}
+.container2 img
+{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+
+}
+.popu_img {
+    width: 160px;
+    height: 130px;
+}
+
+
+.container2
+{
+	background-color: #F2F2F2;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 5px 20px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.LPP
+{
+	justify-content: space-between;
+
+}
+
+.Filtre
+{
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 2px;
+	align-items: center;
+}
+.Filtre :hover{
+	background-color: #DEEBFF;
+}
+.fa-search
+{
+	display: none !important;
+
+}
+
+.tag
+{
+	border: 2px solid #F2F2F2;
+	margin: 4px;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+
+}
+
+.tag span
+{
+	margin:0 8px;
+}
+.tag i
+{
+	background-color: #DEEBFF;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#0065FC ;
+}
+
+.loc
+{
+	display: flex;
+	align-items: center;
+	margin: 24px 0 ;
+
+}
+.loc i.fa-map-marker-alt 
+{
+	background-color: lightgrey;
+	width: 40px;
+	height: 40px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: -3px;
+}
+.imput_search
+{
+	height: 40px;
+	border: 1px solid lightgrey;
+	
+}
+.imput_submit
+{
+	height: 40px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #0065FC;
+	background-color: #0065FC;
+	color: white;
+	padding-left: 18px ;
+	padding-right: 18px;
+}
+
+
+
+.stars i
+{
+	color: #0065FC;
+	
+}
+
+.long
+{
+	height: 310px;
+	width: 205px;
+}
+.petite
+{
+	height: 164px;
+}
+
+.act1
+{
+	display: flex;
+	
+
+}
+
+.card-lg img
+{
+	width: 100%;
+	height: 460px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.card-md img 
+{
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+
+}
+.card-lg
+{
+	box-shadow: 0.6px 0.6px 6px lightgrey;
+	background-color: white;
+	border-radius: 25px;
+	overflow: hidden;
+	height: auto;
+	width: 50%;
+}
+
+.card-md
+{	box-shadow: 0.6px 0.6px 6px lightgrey;
+	background-color: white;
+	border-radius: 25px;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.imgpt
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	margin-left: 20px;
+	margin-top: -21px;
+	width: 50%;
+}
+
+.block1, .block2
+{
+	display: flex;
+	width: 50%;
+}
+.global2{
+	width: calc(100% - 20px);
+	padding-bottom: 40px;
+}
+.act
+{
+	display: flex;
+}
+.title
+{
+	font-size: 23px;
+
+
+}
+.description
+{
+	font-size: 20px;
+
+}
+.stars
+{
+	font-size: 16px;
+}
+
+.finish
+{
+	display: flex;
+	background-color: #F2F2F2;
+	width: 100%;
+}
+.propos
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%
+}
+.Nos_Hebergements
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%;
+
+}
+.Assistance
+{
+	padding: 15px;
+	margin-right: 30px;
+	width: 30%
+}
+.debut{
+	font-size: 20px;
+}
+.stonk{
+	position: absolute;
+	right: 20px;
+}
+.titref{
+	font-size: 22px;
+	font-weight: 900;
+	padding-top: 10px ;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.mini{
+	padding-bottom: 40px;
+}
+#hebergement, #activite{
+	font-size: 33px;
+}
+.dream{
+	font-size: 17px;
+}
+.dinos{
+    font-size: 25px;
+}
+.lppp{
+	font-size: 30px;
+}

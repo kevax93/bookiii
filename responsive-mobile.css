@@ -1,0 +1,283 @@
+@media screen and ( max-width: 767px)
+{
+
+	.barrenav
+	{
+		width: 558px;
+		flex-wrap: wrap;
+	}
+	.barrenav ul
+	{
+		width: 558px;
+		padding-top: 40px;
+	}
+	.barrenav li:hover 
+	{
+   	 	border-top:none;
+   	 	border-bottom: 2px solid;
+    	color: #0065FC;
+ 	}
+		.booki
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.booki img
+	{
+		height: 60px;
+	}
+	.barrenav ul li 
+	{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+	.dream{
+		width: 558px;
+	}
+	.dinos{
+		width: 558px;
+	}
+	.global
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+	.back{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		background-color: white;
+        width: 100%;
+	}
+	
+	.finish{
+		display: block;
+        width: 100%;
+	}
+	.Filtre
+	{
+		display: flex;
+		width: auto;
+	}
+    .HTB, .HLS, .AC
+    {
+        background-color: white;
+        display: flex;
+        border-radius: 14px;
+        box-shadow: 0.6px 0.6px 6px lightgrey;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        border: 4px solid white ;
+        position: relative;
+    }
+
+    .text
+    {
+        padding-left: 20px;
+    }
+    .text .stars{
+        position: absolute;
+        bottom: 0;
+    }
+    .container2 img
+    {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+
+    }
+    .popu_img{
+        width: 160px;
+        height: 130px;
+    }
+    .container2
+    {
+        background-color: #F2F2F2;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 5px 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+	.act
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.block1
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.block2
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.long
+	{
+		width: auto;
+		height: auto;
+	}
+	 .petite
+	{
+		width: auto;
+		height: auto;
+	}
+	.global img
+	{
+		height: 216px;
+		width: 100%;
+	}
+    .back{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Auberge_la_Canebier, .Hotel_du_port, .Hotel_Les_Moulettes, .Hôtel_de_la_mer, .Auberge_Le_Panier, .Hôtel_chez_Amina
+    {
+        background-color: white;
+        border-radius: 14px;
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0.6px 0.6px 6px lightgrey;
+        margin-bottom: 25px;
+        border: 4px solid white;
+    }
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+	}
+	.container2 img
+	{
+		border-bottom-left-radius: 12px;
+   		border-top-left-radius: 12px;
+   	 	border-top-right-radius: 0;
+		height: 100%;
+		width: 100%;
+
+	}
+	.HTB, .HLS, .AC
+	{
+		background-color: white;
+		display: flex;
+		border-radius: 8px;	
+		box-shadow: 0.6px 0.6px 6px lightgrey;
+		overflow: hidden;
+		height: auto;
+		width: 100%;
+		position: relative;
+	}
+	.HTB{
+		margin-bottom: 6px;
+	}
+	.text{
+		padding: 15px;
+
+	}
+	.text .stars{
+		position: absolute;
+		bottom: 10px;
+	}
+	.AC
+	{
+
+		background-color: white;
+		display: flex;
+		border-bottom-left-radius: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		box-shadow: 0.6px 0.6px 6px lightgrey;
+	}
+	.finish
+	{
+		width: 100%;
+	}
+	.card-lg 
+	{
+		width: auto;
+		height: 420px;
+
+	}
+	.act{
+		width: auto;
+	}
+	.imput_submit
+	{	
+		display: none;
+
+	}
+	.fa-search
+	{
+		background: #0065FC !important; 
+		display: block !important;
+		width: 40px;
+		height: 40px;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		color: #FFFF;
+		position: relative;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		margin-left: -3px;
+	}
+    .card-md .card-lg img 
+    {
+	    object-fit: cover;
+	    overflow: hidden;
+
+    }
+    .card-md, .card-lg
+    {	box-shadow: 0.6px 0.6px 6px lightgrey;
+        background-color: white;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card-lg{
+        margin-left: 8px;
+    }
+    .imgpt
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 0;
+        margin-top: -21px;
+		width: 100%;
+    }
+    .act img{
+        width: 100%;
+        height: 220px;
+    
+    }
+    .titref{
+        font-size: 22px;
+        font-weight: 900;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+}
